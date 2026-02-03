@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #355070;
+}
+
+h1 {
+    text-align: center;
+    color: #E56B6F;
+    margin-top: 2%;
+}
+
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#msg {
+    color: #EAAC8B;
+    margin: 10px;
+    font-size: 1.5rem;
+    visibility: hidden;
+
+}
+
+#new-btn {
+    height: 50px;
+    width: 130px;
+    background-color: #EAAC8B;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1.3rem;   
+    font-weight: 400;
+}
+
+#new-btn:hover {
+    width: 135px;
+    font-size: 1.34rem;
+    font-weight: 440;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 6%;
+}
+
+.box {
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 4rem;
+    padding: 10%;
+    padding-top: 25px;
+
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.reset-btn {
+    height: 50px;
+    width: 130px;
+    background-color: #EAAC8B;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1.3rem;   
+    font-weight: 400;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.reset-btn:hover {
+    width: 135px;
+    /* height: 60px; */
+    font-size: 1.34rem;
+    font-weight: 440;
+}
